@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
-    "scripts": {},
+    "scripts": {
+        "start": "node server"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/gilad-deel/test-server.git"
