@@ -11,7 +11,7 @@ WORKDIR /srv/app
 EXPOSE 3000
 
 COPY package*.json ./
-RUN npm install --quiet > /dev/null 2>&1 && npm cache clean --force 2>&1
+RUN npm install && npm cache clean --force
 
 COPY . .
 
